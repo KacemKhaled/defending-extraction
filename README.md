@@ -6,7 +6,7 @@ Model stealing attacks have become a serious concern for deep learning models, w
 
 
 ## How To Use
-### Enironmenet setting:
+### Environment setting:
 
 Environment can be set:
 - with `virtualenv` using:
