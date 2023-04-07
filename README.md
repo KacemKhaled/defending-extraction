@@ -13,7 +13,7 @@ Environment can be set:
 
 ```bash
 virtualenv --no-download defending-extraction
-source msf-env/bin/activate   
+source defending-extraction/bin/activate   
 pip install -r requirements.txt   
 pip install -e .
 cd df
