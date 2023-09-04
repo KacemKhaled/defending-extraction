@@ -1,6 +1,9 @@
 # Efficient Defense Against Model Stealing Attacks on Convolutional Neural Networks, ICMLA 2023
-Kacem Khaled∗, Mouna Dhaouadi†, Felipe Gohring de Magalh ̃aes∗ and Gabriela Nicolescu∗
+
+Kacem Khaled∗, Mouna Dhaouadi†, Felipe Gohring de Magalhães∗ and Gabriela Nicolescu∗
+
 ∗Department of Computer Engineering and Software Engineering, Polytechnique Montreal, Canada
+
 †Department of Computer Science and Operations Research, University of Montreal, Canada
 
 
