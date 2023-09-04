@@ -222,7 +222,7 @@ def main(args):
     ################# TRAINING ####################
     print('\nTraining model on: {}'.format(args.dataset))
 
-    teacher = create_model(args.dataset, num_classes, use_vgg_countermeasure=args.use_vgg)
+    teacher = create_model(args.dataset, num_classes, arch=args.arch)
     # teacher = ResNet18(num_class=num_classes)
     # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     # teacher.to(device)
@@ -252,7 +252,7 @@ if __name__ == '__main__':
     parser.add_argument('--exp_name', type=str, help='name for exepriment', default='train')
     parser.add_argument('--epochs', type=int, help='number of epochs for training', default=10)
     parser.add_argument('--batch_size', type=int, help='batch size for training', default=32)
-    parser.add_argument('--use_vgg', action='store_true', help='Use VGG architecture for the model',  default=False)
+    parser.add_argument('--arch', type=str, help='Use VGG architecture for the model', default='resnet')
 
 
     args = parser.parse_args()
